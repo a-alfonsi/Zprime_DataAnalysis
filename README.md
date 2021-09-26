@@ -1,27 +1,29 @@
 # README #
 
-Scripts for Z' background studies with the e-mu method.
+Scripts and libraries I developed for the Z' background and isolation studies performed during my master's thesis project. 
+Note: they are made to be run in the CERN LXPLUS cluster and require ROOT.
+Plots or datasets are not shared, but the provided code skeleton could easily be readapted to other projects.
 
 
 
 ### Folders ###
 Please find the last version of the scripts in "RUN2_2016" folder.
 
+* **Isolation_Studies**
+
+    Study of the muon isolation variables.
+    
 * **Emu_InvariantMass**
 
-    Study of the invariant e-mu mass spectrum.
+    Study and plotting of the invariant e-mu mass spectrum.
 
 * **Libraries**
 
-    Libraries needed to run every script in RUN2_2016 folder.
-
-* **Plots**
-
-    .pdf produced plots
+    Libraries needed to run the ROOT macros.
 
 * **ScaleFactors**
 
-    Calculation of the scale factors
+    Calculation and plotting of the e-mu scale factors
 
 
 ### Scripts ###
@@ -48,10 +50,5 @@ Please find the last version of the scripts in "RUN2_2016" folder.
 ### Notes on how to run this code ###
 Just execute the root macros
 
-_root -l macro.cxx_
+`root -l macro.cxx`
 
-Do not compile
-
-
-### Author ###
-* alice.alfonsi@cern.ch
